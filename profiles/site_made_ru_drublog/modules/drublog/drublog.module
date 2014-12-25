@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DruBlog feature.
+ */
+
+include_once 'drublog.features.inc';
