@@ -1,6 +1,0 @@
-name = custom
-core = 7.x
-description = custom
-package = custom
-
-files[] = custom.module
