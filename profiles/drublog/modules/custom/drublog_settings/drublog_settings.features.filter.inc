@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * drublog.features.filter.inc
+ * drublog_settings.features.filter.inc
  */
 
 /**
  * Implements hook_filter_default_formats().
  */
-function drublog_filter_default_formats() {
+function drublog_settings_filter_default_formats() {
   $formats = array();
 
   // Exported format: Визуальный редактор.

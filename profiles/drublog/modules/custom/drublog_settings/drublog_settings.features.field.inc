@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * drublog.features.field.inc
+ * drublog_settings.features.field.inc
  */
 
 /**
  * Implements hook_field_default_fields().
  */
-function drublog_field_default_fields() {
+function drublog_settings_field_default_fields() {
   $fields = array();
 
   // Exported field: 'comment-comment_node_article-comment_body'.

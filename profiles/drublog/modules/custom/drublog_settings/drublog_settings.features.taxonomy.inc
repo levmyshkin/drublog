@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * drublog.features.taxonomy.inc
+ * drublog_settings.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function drublog_taxonomy_default_vocabularies() {
+function drublog_settings_taxonomy_default_vocabularies() {
   return array(
     'tags' => array(
       'name' => 'Tags',

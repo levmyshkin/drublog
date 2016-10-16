@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * drublog.features.inc
+ * drublog_settings.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function drublog_ctools_plugin_api() {
+function drublog_settings_ctools_plugin_api() {
   list($module, $api) = func_get_args();
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
@@ -17,14 +17,14 @@ function drublog_ctools_plugin_api() {
 /**
  * Implements hook_views_api().
  */
-function drublog_views_api() {
+function drublog_settings_views_api() {
   return array("version" => "3.0");
 }
 
 /**
  * Implements hook_image_default_styles().
  */
-function drublog_image_default_styles() {
+function drublog_settings_image_default_styles() {
   $styles = array();
 
   // Exported image style: 130x87crop.
@@ -55,7 +55,7 @@ function drublog_image_default_styles() {
 /**
  * Implements hook_node_info().
  */
-function drublog_node_info() {
+function drublog_settings_node_info() {
   $items = array(
     'article' => array(
       'name' => t('Статья'),

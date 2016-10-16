@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * drublog.features.menu_links.inc
+ * drublog_settings.features.menu_links.inc
  */
 
 /**
  * Implements hook_menu_default_menu_links().
  */
-function drublog_menu_default_menu_links() {
+function drublog_settings_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: main-menu:<front>

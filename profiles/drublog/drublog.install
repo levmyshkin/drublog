@@ -5,10 +5,7 @@
 * Perform actions to set up the site for this profile.
 */
 
+function drublog_install() {
 
-function site_made_ru_drublog_install() {
-
-
-	
 }
 ?>

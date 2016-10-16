@@ -4,4 +4,4 @@
  * Code for the DruBlog feature.
  */
 
-include_once 'drublog.features.inc';
+include_once 'drublog_settings.features.inc';

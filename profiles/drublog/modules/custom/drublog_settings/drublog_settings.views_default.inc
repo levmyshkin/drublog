@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * drublog.views_default.inc
+ * drublog_settings.views_default.inc
  */
 
 /**

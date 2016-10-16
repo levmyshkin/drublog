@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * drublog.features.menu_custom.inc
+ * drublog_settings.features.menu_custom.inc
  */
 
 /**
  * Implements hook_menu_default_menu_custom().
  */
-function drublog_menu_default_menu_custom() {
+function drublog_settings_menu_default_menu_custom() {
   $menus = array();
 
   // Exported menu: main-menu.

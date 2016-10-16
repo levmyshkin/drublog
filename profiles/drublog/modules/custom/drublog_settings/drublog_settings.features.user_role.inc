@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * drublog.features.user_role.inc
+ * drublog_settings.features.user_role.inc
  */
 
 /**
  * Implements hook_user_default_roles().
  */
-function drublog_user_default_roles() {
+function drublog_settings_user_default_roles() {
   $roles = array();
 
   // Exported role: administrator.

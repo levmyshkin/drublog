@@ -1,7 +1,7 @@
 <?php
 ; $Id$
 name = DruBlog
-description = DruBlog : Друпал cборка Site-made.ru.
+description = DruBlog: Drupal blog with an image gallery.
 version = VERSION
 core = 7.x 
 
@@ -37,7 +37,7 @@ dependencies[] = user
 dependencies[] = cctags 
 dependencies[] = ctools 
 dependencies[] = features 
-dependencies[] = drublog 
+dependencies[] = drublog_settings
 dependencies[] = metatags_quick 
 dependencies[] = metatags_quick_extra 
 dependencies[] = captcha 
@@ -65,4 +65,4 @@ dependencies[] = ext_link_page
 dependencies[] = l10n_update
 
 
-files[] = site_made_ru_drublog.profile
+files[] = drublog.profile

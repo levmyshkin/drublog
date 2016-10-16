@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * drublog.strongarm.inc
+ * drublog_settings.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function drublog_strongarm() {
+function drublog_settings_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

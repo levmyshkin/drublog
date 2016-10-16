@@ -1,10 +1,8 @@
-name = DruBlog
+name = DruBlog Settings
 description = Blog based on Drupal
 core = 7.x
-package = Features
-php = 5.2.4
-version = 7.x-2.1
-project = drublog
+package = Drublog
+version = 7.x-2.2
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = backup_migrate
